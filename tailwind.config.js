@@ -7,11 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      fontFamily: {
+        robotoCondensed: ["Roboto Condensed"],
+        lexend: ["Lexend", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
+        Raleway: ["Raleway", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
+        PlayFair: ["Playfair Display", "sans-serif"],
+      }
     },
   },
   plugins: [],
