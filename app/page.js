@@ -1,11 +1,8 @@
-'use client'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>
-      Home
-    </div>
+    <div>Home Page</div>
   )
 }
 
